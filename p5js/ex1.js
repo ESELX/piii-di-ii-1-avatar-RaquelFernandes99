@@ -30,13 +30,19 @@ function draw() {
  //mangas
 
   fill(9, 2, 30)
- rect(80, 320, 240, 405, 30);
+ rect(80, 320, 240, 205, 30);
+ //CALCAS
 
+  fill(0)
+ rect(120, 320, 70, 405, 30);
+
+ fill(0)
+rect(200, 320, 70, 405, 30);
 
  //camisola
 
   fill(9, 2, 30)
- rect(100, 320, 200, 400, 30);
+ rect(100, 320, 200, 200, 30);
 
    //orelhas
 
@@ -117,7 +123,7 @@ triangle(310, 180, 268, 108, 206, 109);
  //CAchecol
 
     fill(225, 61, 17)
- rect(150, 320, 60, 405, 30);
+ rect(150, 320, 60, 205, 30);
   fill(225, 61, 17)
  ellipse(186, 320, 165, 45);
 
@@ -130,4 +136,15 @@ text('Olá, ', 50, 30);
 text('o meu nome', 62, 50);
    textAlign(LEFT);
 text('é Raquel!', 8, 70);
+
+//texto
+fill(87, 37, 144)
+textSize(40);
+textAlign(CENTER);
+text('Sou aluna do, ', 700, 50);
+textAlign(CENTER);
+text('3º J do Curso AVT ', 700, 150);
+  textAlign(CENTER);
+text('na ESELX!', 700, 250);
+
 }
